@@ -25,7 +25,7 @@ public class FruitGuyV2 {
     public static String[] removeRotten(String[] fruitBasket) {
 
         String rottenCheck = "rotten";
-        String[] newFruitBasket = new String[5];
+        String[] newFruitBasket = new String[fruitBasket.length];
 
         for (int i = 0; i < fruitBasket.length; i++){
 
@@ -33,7 +33,7 @@ public class FruitGuyV2 {
 
             if (fruitBasket[i].contains(rottenCheck)){
 
-                newFruitBasket[i] = fruitBasket[i].replace(rottenCheck, " ");
+                newFruitBasket[i] = fruitBasket[i].replace(rottenCheck, "");
 
             } else if(fruitBasket[i] == null || fruitBasket[i].isEmpty()){
 
@@ -47,13 +47,12 @@ public class FruitGuyV2 {
             }
 
         }
-        System.out.print(Arrays.toString(newFruitBasket));
         return newFruitBasket;
     }
 
     public static void main(String[] args){
 
-        String[] fruitBasket = {"apple","rottenBanana","apple", "", ""};
+        String[] fruitBasket = {"apple","rottenBanana","apple", "rottenKiwi", ""};
         removeRotten(fruitBasket);
     }
 }
