@@ -1,8 +1,6 @@
 # JavaProblems
-Solved Random Java Problems
+Solved Random Java Problems (codewars + /r/dailyprogrammer)
 
-codewars + /r/dailyprogrammer
+**Codewars 8kyu Most Easy**
 
-easiest
-http://www.codewars.com/kata/557af4c6169ac832300000ba/train/java
-FruitGuyV2.java
+[Help the fruit guy](http://www.codewars.com/kata/557af4c6169ac832300000ba/train/java) - FruitGuyV2.java
