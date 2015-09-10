@@ -18,7 +18,7 @@ returned array should be in LOWER case.
 * */
 
 /**
- * Created by gma992 on 10/09/15.
+ * Created by Gabriel Maldonado on 10/09/15.
  */
 public class FruitGuyV2 {
 
